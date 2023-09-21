@@ -1,0 +1,57 @@
+.range-form{
+    display: none;
+    text-align: center;
+    top: 250px;
+    right: 50%;
+    transform: translateX(50%);
+    height: 100px;
+    background-color: white;
+    width: 40%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: absolute;
+    border-radius: 50px;
+    border: 1px solid #9747FF;
+    z-index: 2;
+}
+.range-form #range{
+    -webkit-appearance: none !important;
+    width: 80%;
+    height: 20px;
+    border-radius: 24px;
+    background: linear-gradient(90deg, #ED147D 0%, rgb(214,214,214) 0%);
+    outline: none;
+}
+.range-form #range::-webkit-slider-thumb{
+    -webkit-appearance: none !important;
+    height: 20px;
+    border-radius: 50%;
+    width: 20px;
+    background: #9747FF;
+}
+#value-range{
+    color: #9747FF;
+    width: 20%;
+    height: 40px;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.range-form::after{
+    content: "16";
+    position: absolute;
+    left: 10%;
+    bottom: 10px;
+    font-weight: 600;
+}
+.range-form::before{
+    content: "50";
+    position: absolute;
+    right: 10%;
+    bottom: 10px;
+    font-weight: 600;
+}

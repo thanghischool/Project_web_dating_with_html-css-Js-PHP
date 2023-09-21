@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+:root {
+  --button_form: rgba(237, 20, 125, 1);
+}
+#page {
+  width: 100%;
+  transition: 0.4s linear;
+}
+body {
+  background: linear-gradient(180deg, #ff7ebd 0%, #fff 33.33%);
+}
+#login-menu {
+  width: fit-content !important;
+}
+
+.header a {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.menu ul {
+  display: flex !important;
+  justify-content: center;
+  margin: 0;
+}
+
+.menu ul li a:hover {
+  color: #ed147d !important;
+}
+.menu li {
+  list-style: none;
+  width: 140px;
+  text-align: center;
+}
+
+.menu2 li {
+  list-style: none;
+  text-align: center;
+}
+/* Header */
+.header {
+  display: flex;
+  height: 129px;
+  width: 100%;
+  font-size: 25px;
+  padding: 10px 0px;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+}
+.header .logo {
+  min-width: 20%;
+}
+.header .logo img {
+  width: 100%;
+}
+.header .menu {
+  width: 60%;
+  display: flex;
+
+  clip-path: 100;
+}
+.header .menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex: 1 0 0;
+}
+.header .menu ul li {
+  margin: 0 50px 0 50px;
+}
+.header .menu2 {
+  display: flex;
+
+  width: 20%;
+
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}

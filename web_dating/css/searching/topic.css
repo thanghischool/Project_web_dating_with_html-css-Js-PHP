@@ -1,0 +1,29 @@
+.topic-form{
+    width: 50%;
+    padding: 30px 20px;
+    height: fit-content;
+    top: 250px;
+    right: 50%;
+    transform: translateX(50%);
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border-radius: 50px;
+    border: 1px solid #9747FF;
+    background: #FFF;
+    position: absolute;
+    flex-wrap: wrap;
+    z-index: 2;
+}
+.topic-form > div{
+    width: 25%;
+    height: 50px;
+    font-weight: 400;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border-radius: 50px;
+    border: 1px solid #9747FF;
+    z-index: 2;
+}

@@ -1,0 +1,45 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+html {
+  /* font-family: ; */
+  font-family: "Roboto Condensed", sans-serif;
+}
+.carousel {
+  width: 90%;
+  margin: auto;
+}
+:root {
+  --button_form: rgba(237, 20, 125, 1);
+}
+#page {
+  width: 100%;
+  transition: 0.4s linear;
+}
+.sub-slider {
+  position: relative;
+  width: 100%;
+  max-height: 1000px;
+}
+
+.title-sign {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -100px;
+}
+
+.title-sign h1 {
+  text-align: center;
+  color: #fff;
+  text-shadow: 0px 10px 4px 0px rgba(9, 8, 8, 0.32);
+  font-weight: 700px;
+  font-size: 60px;
+}
+.carousel-item img {
+  height: 400px;
+  object-fit: cover;
+}

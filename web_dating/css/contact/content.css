@@ -1,0 +1,140 @@
+.title-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.title-page h1{
+    color: rgba(237, 20, 125, 0.80);
+    text-align: center;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 57px;
+    width: 100%;
+    justify-content: center;
+}
+.cards .item{
+    display: flex;
+    min-width: 300px;
+    gap: 10px;
+    border-radius: 50px;
+    background: #FFF;
+    box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
+    transition: 0.2s ease-in-out;
+    overflow: hidden;
+}
+.cards .item img{
+    object-fit: cover;
+    border-radius: 50px 0 0 50px;
+    width: 40%;
+    height: 488px;
+}
+.cards .item .content-item{
+    display: flex;
+    width: 60%;
+    height: 456px;
+    padding: 34px 37px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+.cards .item .content-item h4{
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.cards .item:hover{
+    transform: scale(1.07);
+}
+/* Question form */
+.question-form{
+    display: flex;
+    width: 90%;
+    height: 1372px;
+    padding: 48px 59px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 62px;
+    flex-shrink: 0;
+    position: relative;
+    align-self: center;
+}
+.question-form h2{
+    color: rgba(237, 20, 125, 0.80);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 153.9%;
+}
+.question-form p{
+    color: rgba(237, 20, 125, 0.60);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 153.9%;
+    opacity: 60%;
+}
+.question-form .input-title {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.question-form .input-title input{
+    height: 118px; 
+    border-radius: 50px; 
+    width: 30%;
+    font-size: 40px !important;
+    padding: 40px;
+}
+.question-form .input-title textarea {
+    height: 762px;
+    width: 100%!important;
+    border-radius: 50px;
+    font-size: 40px !important;
+    padding: 40px;
+}
+.send-box{
+    display: flex;
+    padding: 0px 71px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    align-self: stretch;
+}
+.send-box .send-btn{
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    height: 74px;
+    border-radius: 20px;
+    background-color: #ED147DCC;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    align-items: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+.send-box .send-btn:hover{
+    transform: scale(1.08);
+}
